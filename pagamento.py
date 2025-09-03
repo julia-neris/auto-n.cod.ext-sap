@@ -7,7 +7,7 @@ df = pd.read_excel(r"C:\Users\julia.neris\Downloads\27082025.xlsx")
 for index, row in df.iterrows():
     numero = str(row[0])
     texto = str(row[1])
-    chavebanco = str(row[3])
+    chavebanco = str(row[2])
     agencia = str(row[4])
     conta = str(row[5])
     digitoconta = str(row[6])
