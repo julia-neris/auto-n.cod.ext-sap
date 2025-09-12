@@ -13,30 +13,30 @@ for index, row in df.iterrows():
 
     #aqui só abre pn
     pyautogui.click(x=439, y=101) 
-    time.sleep(2)
+    time.sleep(1)
 
     pyperclip.copy(numero)
     pyautogui.hotkey('ctrl', 'v')
-    time.sleep(2)
+    time.sleep(1)
     pyautogui.press('enter')
-    time.sleep(2)  
+    time.sleep(1)  
 
     pyautogui.click(x=1225, y=392) 
     pyautogui.dragRel(0, -50, duration=0.5)
 
     pyautogui.click(x=608, y=100) 
-    time.sleep(2)
+    time.sleep(1)
 
     #aqui cola o numero cod externo
     pyautogui.click(x=1225, y=392) 
     pyautogui.dragRel(0, 300, duration=0.5)
 
     pyautogui.click(x=321, y=447)  
-    time.sleep(2)
+    time.sleep(1)
     pyperclip.copy(texto)
-    time.sleep(2) 
+    time.sleep(1) 
     pyautogui.hotkey('ctrl', 'v')
-    time.sleep(2)
+    time.sleep(1)
 
     pyautogui.hotkey('ctrl', 's')
     print("Agora foi")
